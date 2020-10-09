@@ -4,14 +4,52 @@ body {
 	flex-direction: column;
 	background-image: url('https://media.giphy.com/media/j6eeHy7LG8rBdiS1NZ/giphy.gif');
 	background-size: cover;
-	color: whitesmoke;
+	color: #f5f5f5;
+	font-family: 'Orbitron', sans-serif;
+	letter-spacing: .25em;
 }
 header {
 	height: fit-content;
+	color: #db3300;
+	font-size: 3em !important;
 }
 main {
 	flex-grow: 1;
 }
 footer {
 	height: fit-content;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+hr {
+	background-color: #db3300;
+	width: 75%;
+}
+
+i {
+	height: fit-content;
+	width: fit-content;
+	font-size: 1.2em;
+}
+
+.board {
+	background-color: rgba(37, 17, 17, .7);
+	border: 5px solid #db3300;
+	max-width: 30vw;
+}
+
+.pluto {
+	height: 300px;
+	width: auto;
+}
+
+.cost {
+	font-size: .7em;
+}
+
+.desc {
+	font-size: .55em;
 }
