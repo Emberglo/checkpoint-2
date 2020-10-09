@@ -17,8 +17,8 @@
             <div class="col-3">
                 <h2>Stats</h2>
                 <div>
-                    <p>PPS (Plutonium Per Second): <span id="pps">0</span></p>
-                    <p>MM (Mining Multiplier): <span id="mm">1</span></p>
+                    <p>Plutonium Per Second: <span id="pps">0</span></p>
+                    <p>Mining Multiplier: <span id="mm">1</span></p>
                 </div>
             </div>
             <div class="col-6">
@@ -31,17 +31,33 @@
                         <p>Plutonium: <span id="plutonium">0</span></p>
                         <p>Pickaxes: <span id="pickaxes">0</span></p>
                         <p>Hovercraft: <span id="hovercraft">0</span></p>
-                        <p>Plutonians: <span id="plutonians">0</span></p>
-                        <p>Drills: <span id="drillss">0</span></p>
+                        <p>Plutonians: <span id="plutonian">0</span></p>
+                        <p>Drills: <span id="drill">0</span></p>
                     </div>
                 </div>
                 <div>
                     <h2>Store</h2>
                     <div>
-                        <div onclick="buyPickaxe()"><img src="" alt=""><p id="pickaxeCost"> Cost: 50p</p></div>
-                        <div onclick="buyHovercraft()"><img src="" alt=""><p id="hovercraftCost"> Cost: 250p</p></div>
-                        <div onclick="buyPlutonian()"><img src="" alt=""><p id="plutonianCost"> Cost: 500p</p></div>
-                        <div onclick="buyDrill()"><img src="" alt=""><p id="drillCost"> Cost: 1000p</p></div>
+                        <div class="d-flex" onclick="buyPickaxe()">
+                            <img src="" alt="">
+                            <p>Cost: <span id="pickaxeCost">50</span>p</p>
+                            <p>+1p per click</p>
+                        </div>
+                        <div class="d-flex" onclick="buyHovercraft()">
+                            <img src="" alt="">
+                            <p>Cost: <span id="hovercraftCost">250</span>p</p> 
+                            <p>+3p per click</p> 
+                        </div>
+                        <div class="d-flex" onclick="buyPlutonian()">
+                            <img src="" alt="">
+                            <p>Cost: <span id="plutonianCost">500</span>p</p> 
+                            <p>+10p every 3 seconds</p>
+                        </div>
+                        <div class="d-flex" onclick="buyDrill()">
+                            <img src="" alt="">
+                            <p>Cost: <span id="drillCost">1000</span>p</p> 
+                            <p>+20p every 3 seconds</p>
+                        </div>
                     </div>
                 </div>
             </div>
