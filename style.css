@@ -1,0 +1,17 @@
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	background-image: url('https://media.giphy.com/media/7Jw6LxXuGduwjV07zV/giphy.gif');
+	background-size: cover;
+	color: whitesmoke;
+}
+header {
+	height: fit-content;
+}
+main {
+	flex-grow: 1;
+}
+footer {
+	height: fit-content;
+}

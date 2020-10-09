@@ -8,9 +8,45 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header></header>
+    <header>
+        <h1>Pluto Plunder</h1>
+    </header>
 
-    <main></main>
+    <main class="container-fluid">
+        <div class="row">
+            <div class="col-3">
+                <h2>Stats</h2>
+                <div>
+                    <p>PPS (Plutonium Per Second): <span id="pps">0</span></p>
+                    <p>MM (Mining Multiplier): <span id="mm">1</span></p>
+                </div>
+            </div>
+            <div class="col-6">
+                <img src="Pluto-removebg-preview-removebg-preview.png" alt="Pluto" onclick="mine()">
+            </div>
+            <div class="col-3">
+                <div>
+                    <h2>Inventory</h2>
+                    <div>
+                        <p>Plutonium: <span id="plutonium">0</span></p>
+                        <p>Pickaxes: <span id="pickaxes">0</span></p>
+                        <p>Hovercraft: <span id="hovercraft">0</span></p>
+                        <p>Plutonians: <span id="plutonians">0</span></p>
+                        <p>Drills: <span id="drillss">0</span></p>
+                    </div>
+                </div>
+                <div>
+                    <h2>Store</h2>
+                    <div>
+                        <div onclick="buyPickaxe()"><img src="" alt=""><p id="pickaxeCost"> Cost: 50p</p></div>
+                        <div onclick="buyHovercraft()"><img src="" alt=""><p id="hovercraftCost"> Cost: 250p</p></div>
+                        <div onclick="buyPlutonian()"><img src="" alt=""><p id="plutonianCost"> Cost: 500p</p></div>
+                        <div onclick="buyDrill()"><img src="" alt=""><p id="drillCost"> Cost: 1000p</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 
     <footer></footer>
 
